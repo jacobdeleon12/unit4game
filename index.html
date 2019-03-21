@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../unit4game/assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../unit4game/assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="cal-6 offset-3">
+                <h1>Crystals Collector Game</h1>
+            </div>
+            <div class="row">
+                <div class="cal-6">
+                    <h6>You will be given a random number at the start of the game.</h6>
+                    <h6>There are four crystals below. By clicking on the crystal you will add a specific amount of
+                        points to your total score.</h6>
+                    <h6>You will win the game by matching your total score to random number, you lose the game if your
+                        total score goes above the random number.</h6>
+                    <h6>The value of each crystal is hidden from you untill you click it.</h6>
+                    <h6>Each time the game starts the game will change the value of each crystal.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+
+        <div class="crystals"></div>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h5>Score to reach:</h5>
+                <h5 id="clickScore"></h5>
+            </div>
+            <div class="col-3">
+                <h5>Wins:</h5>
+                <h5 id="wins"></h5>
+                <h5>Losses:</h5>
+                <h5 id="losses"></h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h5>Your score is:</h5>
+                <h5 id="totalScore"></h5>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="../unit4game/assets/javascript/game.js"></script>
+
+</body>
+
+</html>
